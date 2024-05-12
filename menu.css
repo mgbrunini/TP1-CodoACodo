@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    width: 100vw;
+    height: 100%;
+}
+ 
+/* banner*/
+
+.banner {
+    background: #af0808;
+    width: 100vw; 
+    height: 15vw;
+    text-align: center;
+}
+
+.banner ul {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.items {
+    margin: 0;
+    text-align: center;
+
+    
+}
+
+.banner .titulo img {
+    width: 23vw;
+    height: 12vw;
+    text-align: center;
+    margin: 1.5vw;
+}
+
+.banner .rayitas img {
+    width: 6vw;
+    height: 7w;
+    margin: 1.3vw auto;
+
+}
+
+.banner .lineas img {
+    width: 12vw;
+    height: 15vw;
+    margin: 0 1.8vw;
+}
+
+.banner .r img {
+    rotate: 250deg;
+    
+    height: 14.5vw;
+} 
+
+/*menu listas */
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    font-family: "Poppins", sans-serif;
+
+}
+.menu .bebidas,
+.menu .comida {
+    width: 35%;
+    height: auto;
+    border: 5px solid #f5bc2c;
+    border-radius: 20px;
+    padding: 6px 0 0 70px;
+
+       
+}
+.gaseosas,
+.extras {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+  
+    margin: 35px auto;
+}
+
+/*responsivo mobile */
+@media (max-width: 480px) {
+   
+    .banner {
+        width: 100%;
+    }
+    
+    
+    .menu {
+        display: block;
+           
+    }
+
+    .menu .bebidas,
+    .menu .comida {
+        margin-bottom: 50px;
+        margin: 3vw auto;
+        width: 60%;
+    
+    }   
+    
+    .menu ul li {
+        margin: 5px 0;
+    }
+}
+
+
