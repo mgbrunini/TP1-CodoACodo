@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    width: 100vw;
+    height: auto;
+   
+}
+
+/* encabezado*/
+
+.header {
+    height: 13vw;
+    width: 100vw;
+    margin-bottom: 5px;
+    background: linear-gradient(#f1f1f1e8, #e3e3e162);
+}
+
+.encabezado {
+     
+    height: 13vw;
+    
+}
+
+.encabezado ul img {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 3vw;
+    
+}
+
+.encabezado nav ul {
+    display: flex;
+    justify-content: space-around;
+    color: #302714f8;
+   
+}
+
+.encabezado nav ul .items {
+    padding: 6vw 0;
+
+}
+
+
+
+nav a {
+    
+    color: #3c3939;
+    font-size: 2rem;
+    font-family: fantasy;
+}
+
+nav a:hover {
+    color: rgb(154, 133, 28);
+
+}
+
+/*main*/
+
+
+.galeria img {
+    width: 100vw;
+    height: 45vw;
+    margin: 0;  
+}
+
+h2{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-size: 3.5vw;
+    color: #342c1bf8;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.parrafo {
+   
+    font-size: 1.7rem;
+    color: #3a2d22;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+
+.festejos,
+.happy,
+.bienvenida {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    margin: 3vw;
+}
+
+.foto{
+    width: 40vw;
+    height: 32vw;
+    border-radius: 26% 0 26% 0;
+    padding: 4vw;
+    right: 0;
+    
+
+}
+
+
+
+
+/*footer*/
+
+footer {
+    background: url(./imagenes/footer.png);
+    width: 100vw;
+    height: 14vw;
+    margin-top: 50px;
+    color: whitesmoke;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.1rem;
+}
+
+footer .nombres {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    text-align: center;
+   
+}
+
+footer h3 {
+    text-align: center;
+    padding: 30px;
+  
+}

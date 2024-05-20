@@ -1,0 +1,184 @@
+
+/*@import 'animate.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    width: 100vw;
+    height: 100%;
+}
+
+/*encabezado */
+
+
+.header {
+    height: 13vw;
+    width: 100vw;
+    margin-bottom: 5px;
+    background: linear-gradient(#f1f1f1e8, #e3e3e162);
+}
+
+.encabezado {
+     
+    height: 13vw;
+    
+}
+
+.encabezado ul img {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 3vw;
+    
+}
+
+.encabezado nav ul {
+    display: flex;
+    justify-content: space-around;
+    color: #302714f8;
+   
+}
+
+.encabezado nav ul .items {
+    padding: 6vw 0;
+
+}
+
+
+
+nav a {
+    
+    color: #3c3939;
+    font-size: 2rem;
+    font-family: fantasy;
+}
+
+nav a:hover {
+    color: #9a851c;
+
+}
+
+ 
+/* banner*/
+
+.titulo h1{
+   text-align: center;
+   margin: 7vw auto;
+   width:25vw;
+   height: 7vw;
+   
+}
+
+
+
+/*menu listas */
+main {
+    width: 100vw;
+    height: auto;
+    background-image: url(../imagenes/condimento.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    width: 88vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #9a851c;
+    padding-left: 11vw;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 11vw;
+}
+
+.menu .bebidas,
+.menu .comida {
+    width: 35%;
+    height: auto;
+    margin-top: 7vw;
+    padding: 3vw;
+    justify-content: center;
+    font-size: 1.1rem;
+    
+      
+}
+
+
+.gaseosas,
+.extras {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin: 35px auto;
+}
+
+/*footer*/
+
+footer {
+    
+    width: 100vw;
+    height: 16vw;
+    background: url(../imagenes/footer.png);
+    color: whitesmoke;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.1rem;
+}
+
+footer .nombres {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    text-align: center;
+   
+}
+
+footer h3 {
+    text-align: center;
+    padding: 30px;
+  
+}
+
+
+
+/*responsivo mobile */
+
+@media (max-width: 480px) {
+   
+    .banner {
+        width: 100%;
+    }
+    
+    
+    .menu {
+        display: block;
+           
+    }
+
+    .menu .bebidas,
+    .menu .comida {
+        margin: 5vw auto;
+        width: 67%;
+        align-items: center;
+    
+    }   
+    
+    .menu ul li {
+        margin: 5px 0;
+    }
+
+}
+
+
+
+
